@@ -1,0 +1,33 @@
+{
+	"name": "mozzabella-web",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"check": "astro check && tsc --noEmit",
+		"lint": "eslint --ext .astro,.ts,.js,.tsx .",
+		"lint:fix": "eslint --ext .astro,.ts,.js,.tsx . --fix",
+		"format": "prettier --write src",
+		"format:check": "prettier --check src",
+		"start": "astro dev",
+		"build": "astro check && astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"@astrojs/check": "^0.5.7",
+		"astro": "^4.5.1"
+	},
+	"devDependencies": {
+		"@antfu/eslint-config": "0.43.1",
+		"@astrojs/check": "0.5.7",
+		"@typescript-eslint/parser": "^7.2.0",
+		"eslint": "^8.57.0",
+		"eslint-config-prettier": "9.1.0",
+		"eslint-plugin-astro": "^0.31.4",
+		"eslint-plugin-jsx-a11y": "^6.8.0",
+		"prettier": "^3.2.5",
+		"prettier-plugin-astro": "^0.13.0",
+		"typescript": "5.4.2"
+	}
+}
